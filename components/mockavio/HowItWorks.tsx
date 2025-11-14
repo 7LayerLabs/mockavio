@@ -45,11 +45,11 @@ export function HowItWorks() {
             return (
               <div key={index} className="text-center relative">
                 {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-12 left-[60%] w-full h-0.5 bg-gradient-to-r from-mockavio-primary/20 to-transparent"></div>
+                  <div className="hidden md:block absolute top-12 left-[60%] w-full h-0.5 bg-mockavio-primary/20"></div>
                 )}
                 <div className="relative inline-flex items-center justify-center mb-8">
-                  <div className="absolute w-24 h-24 bg-gradient-to-br from-mockavio-primary/10 to-mockavio-accent/10 rounded-full animate-pulse"></div>
-                  <div className="relative bg-gradient-to-br from-mockavio-primary to-mockavio-accent text-white rounded-2xl w-20 h-20 flex items-center justify-center text-3xl font-bold shadow-lg">
+                  <div className="absolute w-24 h-24 bg-mockavio-primary/10 rounded-full animate-pulse"></div>
+                  <div className="relative bg-mockavio-primary text-white rounded-2xl w-20 h-20 flex items-center justify-center text-3xl font-bold shadow-lg">
                     {step.number}
                   </div>
                   <div className="absolute -bottom-1 -right-1 bg-white rounded-xl p-3 shadow-lg border-2 border-gray-100">

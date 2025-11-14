@@ -60,7 +60,7 @@ const plans = [
 
 export function PricingTable() {
   return (
-    <section id="pricing" className="py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section id="pricing" className="py-24 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
@@ -84,7 +84,7 @@ export function PricingTable() {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-mockavio-primary to-mockavio-accent text-white px-4 py-1.5 rounded-full text-xs font-semibold shadow-md">
+                  <span className="bg-mockavio-primary text-white px-4 py-1.5 rounded-full text-xs font-semibold shadow-md">
                     MOST POPULAR
                   </span>
                 </div>

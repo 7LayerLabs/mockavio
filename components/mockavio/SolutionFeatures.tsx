@@ -15,7 +15,7 @@ const features = [
   {
     icon: Award,
     title: 'Professional Quality',
-    description: 'AI trained on professional design and staging. Results that close deals.',
+    description: 'Built on professional design standards and industry best practices. Results that close deals.',
   },
   {
     icon: Users,
@@ -51,7 +51,7 @@ export function SolutionFeatures() {
             const Icon = feature.icon
             return (
               <div key={index} className="group p-8 rounded-2xl border border-gray-200 hover:border-mockavio-primary/50 hover:shadow-lg transition-all bg-white">
-                <div className="bg-gradient-to-br from-mockavio-primary/10 to-mockavio-accent/10 rounded-xl w-14 h-14 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <div className="bg-mockavio-primary/10 rounded-xl w-14 h-14 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Icon className="h-7 w-7 text-mockavio-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">

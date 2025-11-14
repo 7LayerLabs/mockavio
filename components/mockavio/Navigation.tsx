@@ -12,7 +12,7 @@ export function Navigation() {
     <nav className="bg-white/80 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-mockavio-primary to-mockavio-accent bg-clip-text text-transparent">
+          <Link href="/" className="text-2xl font-bold text-mockavio-primary">
             Mockavio
           </Link>
 

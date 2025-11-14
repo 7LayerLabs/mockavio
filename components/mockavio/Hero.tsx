@@ -6,14 +6,14 @@ import { ArrowRight, Play, Home, Sparkles } from 'lucide-react'
 export function Hero() {
   return (
     <section className="relative bg-white overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-white to-slate-50/50"></div>
+      <div className="absolute inset-0 bg-blue-50"></div>
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
             Transform Client Visions Into Reality
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Professional AI visualization for realtors, designers, and restaurateurs.
+            Professional visualization tools for realtors, designers, and restaurateurs.
             Show possibilities, close deals, save thousands.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -38,13 +38,13 @@ export function Hero() {
         <div className="mt-20 max-w-6xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200">
             <div className="grid grid-cols-2 gap-px bg-gray-200">
-              <div className="bg-gradient-to-br from-gray-100 to-gray-200 aspect-video flex items-center justify-center p-8">
+              <div className="bg-gray-200 aspect-video flex items-center justify-center p-8">
                 <div className="text-center">
                   <Home className="h-12 w-12 text-gray-500 mb-2 mx-auto" />
                   <span className="text-gray-600 font-medium">Empty Room</span>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white aspect-video flex items-center justify-center p-8">
+              <div className="bg-blue-50 aspect-video flex items-center justify-center p-8">
                 <div className="text-center">
                   <Sparkles className="h-12 w-12 text-gray-500 mb-2 mx-auto" />
                   <span className="text-gray-600 font-medium">Fully Staged</span>

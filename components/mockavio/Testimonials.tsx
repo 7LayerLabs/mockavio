@@ -22,7 +22,7 @@ const testimonials = [
   },
   {
     quote:
-    'I was skeptical about AI, but the quality is incredible. My buyers can\'t tell it\'s not real staging.',
+    'I was skeptical at first, but the quality is incredible. My buyers can\'t tell it\'s not real staging.',
     author: 'Jennifer S.',
     company: 'Coldwell Banker',
     industry: 'Real Estate',
@@ -51,7 +51,7 @@ const stats = [
 
 export function Testimonials() {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
@@ -63,7 +63,7 @@ export function Testimonials() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 max-w-4xl mx-auto">
           {stats.map((stat, index) => (
             <div key={index} className="text-center p-6 bg-white rounded-xl border border-gray-200">
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-mockavio-primary to-mockavio-accent bg-clip-text text-transparent mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-mockavio-primary mb-2">
                 {stat.value}
               </div>
               <div className="text-sm font-medium text-gray-600">{stat.label}</div>

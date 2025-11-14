@@ -38,7 +38,7 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-5 gap-12">
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">Mockavio</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Mockavio</h3>
             <p className="text-sm leading-relaxed">
               Transform client visions into reality through instant visual mockups.
             </p>

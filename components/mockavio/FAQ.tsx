@@ -6,9 +6,9 @@ import { cn } from '@/lib/cn'
 
 const faqs = [
   {
-    question: 'How accurate are the AI transformations?',
+    question: 'How realistic are the transformations?',
     answer:
-      'Mockavio\'s AI is trained on professional design and staging. Results are photorealistic and maintain proper spatial relationships, lighting, and scale. Many users report clients can\'t distinguish AI staging from real staging.',
+      'Mockavio uses advanced technology trained on professional design and staging standards. Results are photorealistic and maintain proper spatial relationships, lighting, and scale. Many users report clients can\'t distinguish our staging from real staging.',
   },
   {
     question: 'Do I own the images I create?',

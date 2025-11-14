@@ -14,7 +14,7 @@ export function ProblemStatement() {
         </div>
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="text-center p-8 bg-white rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow">
-            <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+            <div className="bg-blue-100 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
               <Home className="h-12 w-12 text-mockavio-primary" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-gray-900">Real Estate</h3>
@@ -25,7 +25,7 @@ export function ProblemStatement() {
             </p>
           </div>
           <div className="text-center p-8 bg-white rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow">
-            <div className="bg-gradient-to-br from-purple-100 to-purple-50 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+            <div className="bg-blue-100 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
               <Palette className="h-12 w-12 text-mockavio-primary" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-gray-900">Interior Design</h3>
@@ -36,7 +36,7 @@ export function ProblemStatement() {
             </p>
           </div>
           <div className="text-center p-8 bg-white rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow">
-            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+            <div className="bg-blue-100 rounded-2xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
               <UtensilsCrossed className="h-12 w-12 text-mockavio-primary" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-gray-900">Restaurants</h3>

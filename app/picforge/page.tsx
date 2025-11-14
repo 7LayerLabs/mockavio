@@ -9,7 +9,7 @@ export default function PicForgeHomePage() {
           Break Reality. Make Them Weird, Epic, Yours.
         </p>
         <p className="text-gray-500">
-          Creative AI image transformation platform
+          Creative image transformation platform
         </p>
       </div>
     </div>
