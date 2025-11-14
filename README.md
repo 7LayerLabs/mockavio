@@ -108,6 +108,14 @@ mockavio/
 - Vibe: Professional, reliable, results-driven
 - Pricing: $99-$299/mo + Enterprise
 
+## 📝 Style Guide
+
+**Critical Content Rules:**
+1. **NO EMOJIS EVER** - Never use emojis in UI text, copy, or components
+2. **NO EM DASHES** - Use regular hyphens (-) instead of em dashes (—)
+
+See `STYLE_GUIDE.md` for complete style guidelines and enforcement rules.
+
 ## 🎯 Target Industries
 
 ### Real Estate Agents
